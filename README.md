@@ -1,3 +1,3 @@
 # Nomad-Kokoa-Clone-firt-try
 
-HTML CSS practice
+HTML CSS practice is so much fun!
