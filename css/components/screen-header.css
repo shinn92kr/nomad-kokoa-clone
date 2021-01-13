@@ -13,3 +13,19 @@
 .screen-header__icons span {
     margin-left: 25px;
 }
+
+.screen-header__icons:last-child {
+    position: relative;
+}
+
+.find-setting-new-notification {
+    display: block;
+    position: absolute;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    top: -5px;
+    right: -5px;
+}
+
