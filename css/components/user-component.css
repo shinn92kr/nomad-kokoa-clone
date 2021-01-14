@@ -16,10 +16,26 @@
     font-size: 23px;
     font-weight: 600;
 }
+.user_component__subtext-area {
+    display: flex;
+    align-items: center;
+}
 .user_component__subtitle {
     margin-top: 8px;
     font-size: 17px;
     color: rgba(0, 0, 0, .5);
+}
+.user_component__mark{
+    margin-top: 8px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-left: 10px;
 }
 .user-component__avatar--xl {
     width: 80px;
