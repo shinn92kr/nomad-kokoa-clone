@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w Kokoa Kokoa Talk</title>
+
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/components/badge.css"> -->
+    <!-- <link rel="stylesheet" href="./css/status-bar.css"> -->
+    <!-- <link rel="stylesheet" href="./css/screens/find.css"> -->
+    <!-- <link rel="stylesheet" href="./css/screens/more.css"> -->
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <!-- To Do: Wifi icon -->
+        </div>
+        <div class="status-bar__column"> 
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Kokoa Talk</h1>
+        </div>
+        <div class="alt-header__column">
+            <span class="alt-header__column--margin-right"><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="./img/kakao-logo.png" alt="">
+            <div class="message-row__content">
+                <span class="message__author">Kokoa Talk</span>
+                <div class="message__info">
+                    <span class="message__bubble">
+                        Check My Kokoa Account Info
+                    </span>
+                    <span class="message__time">15:30</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">
+                        What should I do?
+                    </span>
+                    <span class="message__time">15:30</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg "></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/aeda30a97f.js" crossorigin="anonymous"></script>
+</body>
+</html>
