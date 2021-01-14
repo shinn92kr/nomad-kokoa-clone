@@ -161,10 +161,10 @@
 
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
-    transform: translateX(25px);
+    transform: translateX(25px) translateY(-130px);
 }
 
-.reply:focus-within input {
+.reply input:focus {
     width: 97vw;
     transform: translateX(-13%) translateY(-130px);
 }
